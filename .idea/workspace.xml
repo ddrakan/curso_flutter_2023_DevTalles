@@ -9,13 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34436ab2-572e-44b0-abb2-0c156c35392b" name="Changes" comment="Banner Show Debug in False">
-      <change afterPath="$PROJECT_DIR$/widgets_app/lib/config/menu/menu_items.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/widgets_app/lib/config/theme/app_theme.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/home/home_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="34436ab2-572e-44b0-abb2-0c156c35392b" name="Changes" comment="HomeScreen implementado, sin navegación a otras pantallas.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widgets_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/home/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/home/home_screen.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697097721142</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Widget HomeScreen creado y theme de la App.">
+      <created>1697453634997</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697453634997</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +137,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Banner Show Debug in False" />
-    <option name="LAST_COMMIT_MESSAGE" value="Banner Show Debug in False" />
+    <MESSAGE value="Widget HomeScreen creado y theme de la App." />
+    <MESSAGE value="HomeScreen implementado, sin navegación a otras pantallas." />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeScreen implementado, sin navegación a otras pantallas." />
   </component>
 </project>
