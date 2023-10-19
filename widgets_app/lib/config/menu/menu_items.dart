@@ -1,5 +1,6 @@
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart' show IconData, Icons;
+
 
 class MenuItem{
   final String title;
@@ -30,4 +31,21 @@ const appMenuItems = <MenuItem>[
     link: '/cards',
     icon: Icons.credit_card_outlined,
   ),
+
+  MenuItem(
+    title: 'ProgressIndicators',
+    subtitle: 'Generales y controlados',
+    link: '/progress',
+    icon: Icons.refresh_outlined,
+  ),
+
+  MenuItem(
+    title: 'Ui Controls',
+    subtitle: 'Un contenedor estilizado',
+    link: '/ui',
+    icon: Icons.credit_card_outlined,
+  ),
+
+
 ];
+

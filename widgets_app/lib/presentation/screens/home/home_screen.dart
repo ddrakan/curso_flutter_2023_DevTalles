@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:widgets_app/config/menu/menu_items.dart';
-import 'package:widgets_app/presentation/screens/buttons/buttons_screen.dart';
-
-import '../cards/cards_screen.dart';
 
 class HomeScreen extends StatelessWidget {
 
@@ -66,11 +63,8 @@ class _CustomListTile extends StatelessWidget {
         // #navegar a otras pantallas
         // Navigator.pushNamed(context, menuItem.link);
         //Con Go Router:
-        // context.push( menuItem.link );
-        context.pushNamed(ButtonsScreen.name);
-
-
-
+        // context.pushNamed(ButtonsScreen.name);
+        context.push( menuItem.link );
       } ,
     );
   }
