@@ -32,6 +32,8 @@ class _ButtonsView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    final colors = Theme.of(context).colorScheme;
     return SizedBox(
       width: double.infinity,
       child: Padding(
@@ -62,22 +64,56 @@ class _ButtonsView extends StatelessWidget {
           label: const Text('Outline Icon'),
             ),
             
-            TextButton(onPressed: () {}, child: const Text('Text')),
+            TextButton(onPressed: () {}, child: const Text('Text Button')),
+
             TextButton.icon(
                 onPressed: () {},
                 icon: const Icon( Icons.account_box_outlined),
                 label: const Text('Text')
             ),
 
+            //TODO Custom Button
+            const CustomButton(),
+
             IconButton(onPressed: (){}, icon: const Icon(Icons.app_registration_outlined)),
             IconButton(
                 onPressed: (){},
-                icon: const Icon(Icons.app_registration_outlined)
+                icon: const Icon(Icons.app_registration_outlined),
+              style: ButtonStyle(
+                backgroundColor: MaterialStatePropertyAll(colors.primary),
+              ),
             ),
-
+            
           ],
         ),
       ),
     );
   }
 }
+
+class CustomButton extends StatelessWidget {
+  const CustomButton({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+
+    final colors = Theme.of(context).colorScheme;
+
+    return ClipRect(
+      // borderRadius: BorderRadius.circular(10), INVESTIGAR
+      child: Material(
+        borderRadius: BorderRadius.circular(10),
+        color: colors.primary,
+        child: InkWell(
+          onTap: (){},
+          child: const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 10, vertical: 20),
+              child: Text('Synergy', style: TextStyle( color: Colors.red),
+              ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
