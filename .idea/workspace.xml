@@ -9,9 +9,17 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34436ab2-572e-44b0-abb2-0c156c35392b" name="Changes" comment="SnackBars Dialogs terminado.">
+    <list default="true" id="34436ab2-572e-44b0-abb2-0c156c35392b" name="Changes" comment="infinite_scroll_screen //terminado&#10;drawer //implementando...">
+      <change afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/widgets/side_menu.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/ui_controls/ui_controls_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/ui_controls/ui_controls_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/animated/animated.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/animated/animated.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/animated/app_tutorial/app_tutorial_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/app_tutorial/app_tutorial_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/home/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/home/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/infinite/infinite_scroll_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/infinite/infinite_scroll_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/screens.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/screens.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +65,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ResourceManagerPrefKey.ResourceType": "DRAWABLE",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -65,15 +74,22 @@
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
     "dart.analysis.tool.window.visible": "false",
+    "full.screen.before.presentation.mode": "false",
     "io.flutter.reload.alreadyRun": "true",
     "last_opened_file_path": "D:/AndroidProjects/WidgetsApp",
     "project.structure.last.edited": "SDK Location",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AndroidProjects\WidgetsApp\widgets_app" />
+      <recent name="D:\AndroidProjects\WidgetsApp\widgets_app\lib\presentation\screens" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/widgets_app/lib/main.dart" />
@@ -152,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698046058303</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="UiControls Screen terminado.">
+      <created>1698052189313</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698052189313</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +225,9 @@
     <MESSAGE value="Screens, creadas y barril actualizado." />
     <MESSAGE value="Progress indicator finished." />
     <MESSAGE value="SnackBars Dialogs terminado." />
-    <option name="LAST_COMMIT_MESSAGE" value="SnackBars Dialogs terminado." />
+    <MESSAGE value="UiControls Screen terminado." />
+    <MESSAGE value="infinite_scroll_screen //terminado&#10;drawer //implementando..." />
+    <option name="LAST_COMMIT_MESSAGE" value="infinite_scroll_screen //terminado&#10;drawer //implementando..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
