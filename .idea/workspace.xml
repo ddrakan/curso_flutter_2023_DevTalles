@@ -10,14 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34436ab2-572e-44b0-abb2-0c156c35392b" name="Changes" comment="infinite_scroll_screen //terminado&#10;drawer //implementando...">
-      <change afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/widgets/side_menu.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/providers/counter_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/counter/counter_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/animated/animated.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/animated/animated.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/animated/app_tutorial/app_tutorial_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/app_tutorial/app_tutorial_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets_app/lib/config/menu/menu_items.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/config/menu/menu_items.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets_app/lib/config/router/app_router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/config/router/app_router.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/home/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/home/home_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/infinite/infinite_scroll_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/infinite/infinite_scroll_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/screens.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/screens.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets_app/lib/presentation/widgets/side_menu.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/widgets/side_menu.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/widgets_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/widgets_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/pubspec.yaml" afterDir="false" />
     </list>
@@ -175,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698052189313</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="infinite_scroll_screen //terminado&#10;drawer //implementando...">
+      <created>1698652310658</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698652310658</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
