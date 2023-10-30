@@ -22,7 +22,7 @@ class WidgetsApp extends StatelessWidget {
       title: 'Flutter Widget',
       routerConfig: appRouter,
       debugShowCheckedModeBanner: false,
-      theme: AppTheme(selectedColor: 0).getTheme(),
+      theme: AppTheme(selectedColor: 0, isDarkmode: true ).getTheme(),
 
 
       // home: const HomeScreen(),
