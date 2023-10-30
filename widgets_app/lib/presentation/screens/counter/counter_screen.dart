@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:widgets_app/presentation/providers/counter_provider.dart';
+import 'package:widgets_app/presentation/providers/theme_provider.dart';
 
 class CounterScreen extends ConsumerWidget {
 
@@ -12,20 +13,21 @@ class CounterScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
 
     final int clickCounter = ref.watch( counterProvider );
-
+    final bool isDarkmode = ref.watch( isDarkmodeProvider ); // escuchando los cambios de nuestro provider
+    // tipo StateProvider definido en theme_provider.dart
 
     return Scaffold(
       appBar: AppBar(
         title: const Text('Counter Screen'),
-/*        actions: [
+        actions: [
           IconButton(
             icon: Icon( isDarkmode ? Icons.dark_mode_outlined : Icons.light_mode_outlined ),
             onPressed: () {
-              ref.read( isDarkmodeProvider.notifier )
+              ref.read( isDarkmodeProvider.notifier ) //uso del read porque estoy dentro de un metodo quiero escuchar y cambiar su estado.
                   .update((state) => !state );
             },
           )
-        ]*/
+        ]
       ),
 
       body: Center(

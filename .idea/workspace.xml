@@ -9,19 +9,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34436ab2-572e-44b0-abb2-0c156c35392b" name="Changes" comment="infinite_scroll_screen //terminado&#10;drawer //implementando...">
-      <change afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/providers/counter_provider.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/counter/counter_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+    <list default="true" id="34436ab2-572e-44b0-abb2-0c156c35392b" name="Changes" comment="- Riverpod instalado&#10;- flutter-riverpod ^ instalado en el pubspec.yaml&#10;- file main.dart &gt; configurado para reconocer el ProviderScope de Riverpod:&#10; RunApp Wrap &gt; ProviderScope&#10; ------------&#10; counter_screen.dart&#10; Widget Stateless CAMBIADO &gt; extends ConsumerWidget&#10; : Agregar el constructor de tipo WidgetRef &lt;ref&gt; en el build&#10; &#10; Dentro del build&#10; : Agregar el observador de este provider&#10; &gt; ref.watch( counterProvider );&#10; NOTIFICANDO AL PROVIDER desde el onPressed de un button&#10; implementamos &gt; ref.read( counterProvider.notifier ).state++;&#10; ----------&#10; Crear el miniprovider &#10; file &gt; counter_provider.dart&#10; : import flutter_riverpod.dart&#10; : definir el StateProvider, aqui llamado por la variable counterProvider&#10; -----------">
+      <change afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/providers/theme_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/theme_changer/theme_changer_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/widgets_app/lib/config/menu/menu_items.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/config/menu/menu_items.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/widgets_app/lib/config/router/app_router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/config/router/app_router.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/widgets_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/home/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/home/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/counter/counter_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/counter/counter_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/screens.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/screens/screens.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widgets_app/lib/presentation/widgets/side_menu.dart" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/lib/presentation/widgets/side_menu.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widgets_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widgets_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/widgets_app/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698652310658</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="- Riverpod instalado&#10;- flutter-riverpod ^ instalado en el pubspec.yaml&#10;- file main.dart &gt; configurado para reconocer el ProviderScope de Riverpod:&#10; RunApp Wrap &gt; ProviderScope&#10; ------------&#10; counter_screen.dart&#10; Widget Stateless CAMBIADO &gt; extends ConsumerWidget&#10; : Agregar el constructor de tipo WidgetRef &lt;ref&gt; en el build&#10; &#10; Dentro del build&#10; : Agregar el observador de este provider&#10; &gt; ref.watch( counterProvider );&#10; NOTIFICANDO AL PROVIDER desde el onPressed de un button&#10; implementamos &gt; ref.read( counterProvider.notifier ).state++;&#10; ----------&#10; Crear el miniprovider &#10; file &gt; counter_provider.dart&#10; : import flutter_riverpod.dart&#10; : definir el StateProvider, aqui llamado por la variable counterProvider&#10; -----------">
+      <created>1698665474053</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698665474053</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +201,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="02-Screens" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -236,7 +239,8 @@
     <MESSAGE value="SnackBars Dialogs terminado." />
     <MESSAGE value="UiControls Screen terminado." />
     <MESSAGE value="infinite_scroll_screen //terminado&#10;drawer //implementando..." />
-    <option name="LAST_COMMIT_MESSAGE" value="infinite_scroll_screen //terminado&#10;drawer //implementando..." />
+    <MESSAGE value="- Riverpod instalado&#10;- flutter-riverpod ^ instalado en el pubspec.yaml&#10;- file main.dart &gt; configurado para reconocer el ProviderScope de Riverpod:&#10; RunApp Wrap &gt; ProviderScope&#10; ------------&#10; counter_screen.dart&#10; Widget Stateless CAMBIADO &gt; extends ConsumerWidget&#10; : Agregar el constructor de tipo WidgetRef &lt;ref&gt; en el build&#10; &#10; Dentro del build&#10; : Agregar el observador de este provider&#10; &gt; ref.watch( counterProvider );&#10; NOTIFICANDO AL PROVIDER desde el onPressed de un button&#10; implementamos &gt; ref.read( counterProvider.notifier ).state++;&#10; ----------&#10; Crear el miniprovider &#10; file &gt; counter_provider.dart&#10; : import flutter_riverpod.dart&#10; : definir el StateProvider, aqui llamado por la variable counterProvider&#10; -----------" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Riverpod instalado&#10;- flutter-riverpod ^ instalado en el pubspec.yaml&#10;- file main.dart &gt; configurado para reconocer el ProviderScope de Riverpod:&#10; RunApp Wrap &gt; ProviderScope&#10; ------------&#10; counter_screen.dart&#10; Widget Stateless CAMBIADO &gt; extends ConsumerWidget&#10; : Agregar el constructor de tipo WidgetRef &lt;ref&gt; en el build&#10; &#10; Dentro del build&#10; : Agregar el observador de este provider&#10; &gt; ref.watch( counterProvider );&#10; NOTIFICANDO AL PROVIDER desde el onPressed de un button&#10; implementamos &gt; ref.read( counterProvider.notifier ).state++;&#10; ----------&#10; Crear el miniprovider &#10; file &gt; counter_provider.dart&#10; : import flutter_riverpod.dart&#10; : definir el StateProvider, aqui llamado por la variable counterProvider&#10; -----------" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

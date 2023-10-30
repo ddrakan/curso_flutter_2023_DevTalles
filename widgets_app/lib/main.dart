@@ -7,7 +7,7 @@ import 'package:widgets_app/config/theme/app_theme.dart';
 void main() {
   runApp(
       const ProviderScope(
-      child: WidgetsApp() //Cong. Provider
+      child: WidgetsApp() //Confg. Provider
       )
   );
 }
